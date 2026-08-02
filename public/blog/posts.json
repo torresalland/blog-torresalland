@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "test-api-commit",
+      "title": "Test API Commit",
+      "excerpt": "Testing the GitHub API integration",
+      "category": "Test",
+      "date": "2026-08-02",
+      "readTime": "1 min",
+      "author": "Test Bot",
+      "authorImage": "https://github.com/torresalland.png",
+      "image": ""
+    },
+    {
       "slug": "primeiro-post-teste",
       "title": "A Revolução da Automação com IA em 2026",
       "excerpt": "Descubra como empresas estão reduzindo custos operacionais em até 60% integrando agentes autônomos aos seus processos.",
