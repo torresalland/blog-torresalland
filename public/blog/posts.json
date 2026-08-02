@@ -1,0 +1,15 @@
+{
+  "posts": [
+    {
+      "slug": "primeiro-post-teste",
+      "title": "A Revolução da Automação com IA em 2026",
+      "excerpt": "Descubra como empresas estão reduzindo custos operacionais em até 60% integrando agentes autônomos aos seus processos.",
+      "category": "Automação",
+      "date": "02 Ago 2026",
+      "readTime": "5 min de leitura",
+      "author": "Állan Torres",
+      "authorImage": "https://github.com/torresalland.png",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=2000"
+    }
+  ]
+}
