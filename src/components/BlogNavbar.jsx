@@ -18,7 +18,7 @@ export default function BlogNavbar({ onNavigateHome }) {
         
         <div className="flex items-center gap-6">
           <a href="https://torresalland.cloud" className="text-sm font-medium text-text-secondary hover:text-white transition-colors">Portfólio</a>
-          <a href="https://torresalland.cloud#contato" className="text-sm font-semibold text-bg-dark bg-white px-4 py-2 rounded-full hover:bg-gray-200 transition-colors">
+          <a href="https://wa.me/5584991875425?text=Ol%C3%A1%2C%20%C3%81llan.%20Vi%20um%20post%20no%20seu%20blog%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA%20sobre%20isso." target="_blank" rel="noreferrer" className="text-sm font-semibold text-bg-dark bg-white px-4 py-2 rounded-full hover:bg-gray-200 transition-colors">
             Fale Comigo
           </a>
         </div>
