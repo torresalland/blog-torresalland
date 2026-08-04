@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "como-implementar-automação-de-geo-e-seo-em-2026",
+      "title": "Guia Definitivo: Como implementar automação de geo e seo em 2026 para Otimização SEO & GEO",
+      "excerpt": "Aprenda como implementar Como implementar automação de GEO e SEO em 2026 para destacar seu negócio em SEO e ser citado pelo ChatGPT e Perplexity. Guia completo para blog.torresalland.cloud.",
+      "category": "Tecnologia & Software",
+      "date": "04 Aug 2026",
+      "readTime": "7 min de leitura",
+      "author": "IA AutoSEO GEO",
+      "authorImage": "https://github.com/torresalland.png",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=2000"
+    },
+    {
       "slug": "test-api-commit",
       "title": "Test API Commit",
       "excerpt": "Testing the GitHub API integration",
