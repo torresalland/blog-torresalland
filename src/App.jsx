@@ -10,7 +10,7 @@ export default function App() {
 
   // Carrega o índice de posts ao iniciar
   useEffect(() => {
-    fetch('/blog/posts.json')
+    fetch('/blog/posts.json?t=' + new Date().getTime())
       .then(r => r.json())
       .then(data => setPosts(data.posts || []))
       .catch(() => setPosts([]));
