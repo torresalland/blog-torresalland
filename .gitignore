@@ -2,3 +2,13 @@ node_modules/
 dist/
 .env
 .DS_Store
+
+# Ecosystem local configuration
+node_modules/
+.env*
+!.env.example
+dist/
+.vite/
+.cache/
+.next/
+.ssr/
