@@ -1,0 +1,24 @@
+# Blog estático (Vite). HTTP -> HTTPS já é feito pelo painel da hospedagem; não duplicar aqui.
+# Cabeçalhos só valem se o servidor honrar .htaccess (a confirmar após o deploy aprovado: curl -I).
+Options -Indexes
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+  Header always set X-Frame-Options "DENY"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+  Header always set Strict-Transport-Security "max-age=31536000"
+  <FilesMatch "\.html$">
+    Header always set Cache-Control "no-cache"
+  </FilesMatch>
+  <FilesMatch "^posts\.json$">
+    Header always set Cache-Control "no-cache"
+  </FilesMatch>
+  <IfModule mod_setenvif.c>
+    SetEnvIf Request_URI "^/assets/[^/]+-[A-Za-z0-9_-]{8,}\.(js|css|woff2|png|jpg|webp|avif|svg)$" HASHED_ASSET
+    Header always set Cache-Control "public, max-age=31536000, immutable" env=HASHED_ASSET
+  </IfModule>
+</IfModule>
