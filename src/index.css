@@ -95,3 +95,12 @@ body::before {
 .prose-blog td { padding: .75rem 1rem; border-bottom: 1px solid var(--glass-border); color: var(--text-2); }
 .prose-blog img { border-radius: 16px; margin: 1.5rem 0; max-width: 100%; height: auto; }
 .prose-blog hr { border: none; border-top: 1px solid var(--glass-border); margin: 2rem 0; }
+
+/* CTA da Yuki e divulgação de afiliados (injetados pelo servidor na leitura). */
+.prose-blog .cta-box { margin: 2.25rem 0; padding: 1.25rem 1.5rem; border: 1px solid var(--glass-border-hover); border-left: 3px solid var(--accent-gold); border-radius: 14px; background: var(--accent-gold-soft); }
+.prose-blog .cta-box .cta-title { display: block; font-size: 1.1rem; color: var(--text-1); margin-bottom: .35rem; }
+.prose-blog .cta-box p { font-size: .98rem; margin-bottom: 1rem; line-height: 1.6; }
+.prose-blog .cta-box .cta-button { display: inline-block; padding: .6rem 1.1rem; border-radius: 999px; background: var(--accent-gold); color: #111; font-weight: 600; text-decoration: none; }
+.prose-blog .cta-box .cta-button:hover { color: #111; filter: brightness(1.08); }
+.prose-blog .cta-mid { padding: .9rem 1.25rem; }
+.prose-blog .affiliate-disclosure { margin-top: 1.5rem; color: var(--text-2); opacity: .8; }

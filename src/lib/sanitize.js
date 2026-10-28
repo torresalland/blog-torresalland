@@ -8,7 +8,9 @@ DOMPurify.addHook('afterSanitizeAttributes', (node) => {
     node.setAttribute('referrerpolicy', 'no-referrer');
   }
   if (node.tagName === 'A' && node.getAttribute('href')) {
-    node.setAttribute('rel', 'noopener noreferrer');
+    // Preserva sponsored/nofollow dos links de afiliado vindos do servidor.
+    const keep = (node.getAttribute('rel') || '').split(/\s+/).filter((t) => t === 'sponsored' || t === 'nofollow');
+    node.setAttribute('rel', [...keep, 'noopener', 'noreferrer'].join(' '));
     if (/^https?:/i.test(node.getAttribute('href'))) node.setAttribute('target', '_blank');
   }
 });

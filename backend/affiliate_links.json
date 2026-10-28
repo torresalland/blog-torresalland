@@ -1,0 +1,20 @@
+{
+  "_instrucoes": "Cole SEU link de afiliado em 'url' (https) e troque 'enabled' para true. 1 link por termo e no máximo AFFILIATE_MAX_PER_POST (3) por artigo. O módulo só liga com AFFILIATE_ENABLED=1. Termos genéricos (Monitor, Claude, Comércio Exterior) viram link em qualquer menção: só ative com um link que faça sentido para o leitor.",
+  "links": [
+    {"term": "Hostinger", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "n8n", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "Vercel", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "Notion", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "Zapier", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "Canva", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "Google Workspace", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "ChatGPT", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "Claude", "store": "saas", "url": "https://SEU-LINK-DE-AFILIADO-AQUI", "enabled": false},
+    {"term": "Kindle", "store": "amazon", "url": "https://www.amazon.com.br/dp/SEU-ASIN?tag=SEU-ID-20", "enabled": false},
+    {"term": "iPhone", "store": "amazon", "url": "https://www.amazon.com.br/dp/SEU-ASIN?tag=SEU-ID-20", "enabled": false},
+    {"term": "MacBook", "store": "amazon", "url": "https://www.amazon.com.br/dp/SEU-ASIN?tag=SEU-ID-20", "enabled": false},
+    {"term": "Teclado Mecânico", "store": "mercadolivre", "url": "https://SEU-LINK-MERCADO-LIVRE-AQUI", "enabled": false},
+    {"term": "Monitor", "store": "mercadolivre", "url": "https://SEU-LINK-MERCADO-LIVRE-AQUI", "enabled": false},
+    {"term": "Comércio Exterior", "store": "amazon", "url": "https://www.amazon.com.br/dp/SEU-ASIN-DO-LIVRO?tag=SEU-ID-20", "enabled": false}
+  ]
+}
